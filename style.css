@@ -1,0 +1,77 @@
+.oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(120, 122, 120);
+    font-family: Oswald;
+    background-image: -moz-linear-gradient(to bottom, #808080, #000000);
+}
+
+
+
+.headline {
+    background-color: rgba(80, 80, 80, 0.459);
+    color: white;
+    height: 20vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Oswald;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 17pt;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+img {
+    height: 450px;
+    border-radius: 20px;
+    
+}
+
+.zumbi {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.autodromo {
+    text-align: center;
+}
+
+.opera {
+    text-align: center;
+}
+
+/* CSS para o efeito de hover nas imagens */
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+
+
+  
